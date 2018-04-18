@@ -186,7 +186,8 @@
             // If the Bootstrap tooltip library is loaded, initialize the tooltips of the toolbar
             if (typeof $().tooltip === 'function') {
                 container.find('[data-mdtooltip="tooltip"]').tooltip({
-                    container: 'body'
+                    container: 'body',
+                    animation: false
                 });
             }
 
