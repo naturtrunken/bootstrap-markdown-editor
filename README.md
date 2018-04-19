@@ -14,6 +14,9 @@ This is a jQuery plugin.
 * Ace editor (http://ace.c9.io)
 * FontAwesome 5
 
+**Note** There is a _font-awesome-4_ branch available if you are working with
+a legacy project which still uses the old font awesome class names.
+
 ## Features
 
 * Preview support
