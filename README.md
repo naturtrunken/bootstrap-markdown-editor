@@ -2,16 +2,17 @@
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-Markdown editor for Bootstrap with preview, image upload support, shortcuts and other features.  
+Markdown editor for Bootstrap 4 with preview, image upload support, shortcuts and other features.  
 This is a jQuery plugin.
 
 **Demo**: http://inacho.github.io/bootstrap-markdown-editor/
 
 ## Requirements
 
-* Bootstrap 3
+* Bootstrap 4
 * jQuery
 * Ace editor (http://ace.c9.io)
+* FontAwesome 5
 
 ## Features
 
@@ -49,6 +50,8 @@ Optionally, include the script of Bootstrap to enable tooltips:
 <script src="bower_components/ace-builds/src-min/ace.js"></script>
 <script src="bower_components/bootstrap-markdown-editor/dist/js/bootstrap-markdown-editor.js"></script>
 ```
+
+Download and include FontAwesome 5 [https://fontawesome.com/](https://fontawesome.com/).
 
 Create a textarea for the editor with optional content in markdown format:
 
