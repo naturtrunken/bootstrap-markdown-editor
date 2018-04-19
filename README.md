@@ -5,6 +5,10 @@
 Markdown editor for Bootstrap 4 with preview, image upload support, shortcuts and other features.  
 This is a jQuery plugin.
 
+**The code of this font-awesome-4 branch is a downgrade with the old font awesome class names.**
+If you don't need the old class names for a legacy project,
+you want probably use the master branch.
+
 **Demo**: http://inacho.github.io/bootstrap-markdown-editor/
 
 ## Requirements
@@ -12,7 +16,6 @@ This is a jQuery plugin.
 * Bootstrap 4
 * jQuery
 * Ace editor (http://ace.c9.io)
-* FontAwesome 5
 
 ## Features
 
@@ -50,8 +53,6 @@ Optionally, include the script of Bootstrap to enable tooltips:
 <script src="bower_components/ace-builds/src-min/ace.js"></script>
 <script src="bower_components/bootstrap-markdown-editor/dist/js/bootstrap-markdown-editor.js"></script>
 ```
-
-Download and include FontAwesome 5 [https://fontawesome.com/](https://fontawesome.com/).
 
 Create a textarea for the editor with optional content in markdown format:
 

@@ -144,14 +144,14 @@
 
                 if (options.fullscreen === true) {
                     html += '<div class="btn-group pull-right">';
-                        html += '<button type="button" class="md-btn btn btn-sm btn-default" data-btn="fullscreen"><span class="fa fa-expand-arrows-alt"></span> ' + options.label.btnFullscreen + '</button>';
+                        html += '<button type="button" class="md-btn btn btn-sm btn-default" data-btn="fullscreen"><span class="fa fa-arrows-alt"></span> ' + options.label.btnFullscreen + '</button>';
                     html += '</div>'; // .btn-group
                 }
 
                 if (options.preview === true) {
                     html += '<div class="btn-group pull-right">';
                         html += '<button type="button" class="md-btn btn btn-sm btn-default btn-edit active" data-btn="edit"><span class="fa fa-pencil"></span> ' + options.label.btnEdit + '</button>';
-                        html += '<button type="button" class="md-btn btn btn-sm btn-default btn-preview" data-btn="preview"><span class="fa fa-eye-open"></span> ' + options.label.btnPreview + '</button>';
+                        html += '<button type="button" class="md-btn btn btn-sm btn-default btn-preview" data-btn="preview"><span class="fa fa-eye"></span> ' + options.label.btnPreview + '</button>';
                     html += '</div>'; // .btn-group
                 }
 
