@@ -254,7 +254,7 @@ This callback is called when the user clicks on the preview button and has two p
   btnOrderedList: 'Ordered list',
   btnLink: 'Link',
   btnImage: 'Insert image',
-  btnUpload: 'Uplaod image',
+  btnUpload: 'Upload image',
   btnEdit: 'Edit',
   btnPreview: 'Preview',
   btnFullscreen: 'Fullscreen',
