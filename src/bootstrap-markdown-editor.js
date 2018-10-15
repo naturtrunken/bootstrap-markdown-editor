@@ -371,11 +371,11 @@
             return this;
         },
         content: function () {
-            var editor = ace.edit(this.find('.md-editor')[0]);
+            var editor = ace.edit(this.parent().find('.md-editor')[0]);
             return editor.getSession().getValue();
         },
         setContent: function(str) {
-          var editor = ace.edit(this.find('.md-editor')[0]);
+          var editor = ace.edit(this.parent().find('.md-editor')[0]);
           editor.setValue(str, 1);
         }
     };
